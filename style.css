@@ -40,21 +40,21 @@
 }
 .product2{
     display: flex;
-    gap: 90px;
+    gap: 200px;
     justify-content: center;
 }
 .image{
     display: flex;
     gap: 90px;
-    justify-content: center;
+    
 }
 .images2{
     display: flex;
-    gap: 10px;
+    
     justify-content: center;
 }
 #textblock{
-    text-align: center;
+    justify-content: center;
 }
 #textblock2{
     text-align: center;
