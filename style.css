@@ -25,6 +25,9 @@
 .content1{
     display: flex;
 }
+#text{
+    
+}
 .navbar2{
     display: flex;
     gap: 80px;
@@ -32,7 +35,7 @@
 }
 .products{
     display: flex;
-    gap: 90px;
+    gap: 200px;
     justify-content: center;
 }
 .product2{
@@ -64,52 +67,40 @@
 .footer{
     display: flex;
     gap:60px;
-    border: 1px;
-    background-color:black;
-    color: antiquewhite;
-    height: 250px;
-    padding:35px ;
-    margin-left: 7%;
-    margin-right: 7%;
+    border: solid;
+    padding: 70px;
+    justify-content: center;
+    border-color: white;
+
 }
+
 #end{
     display: block;
-    zoom: 40%;
-    width: 5%;
-    height: 150px;
-    text-overflow: clip;
-    font-size:17px ;
+    gap: 60px;
+   
 }
 #shop{
     display:block;
     gap: 50px;
-    background-color: black;
-    color: antiquewhite;
+   
 
 }
 #customer{
-    display: flex;
+    display: block;
     gap: 50px;
-    float: inline-end;
+    
 }
 #help{
-    display: flex;
+    display: block;
     gap:60px;
-    border: 1px;
-    background-color:black;
-    color: antiquewhite;
-    height: 250px;
-    padding:35px ;
-    margin-left: 7%;
-    margin-right: 7%;
+    
 }
 .last{
-    display: block;
-    zoom: 40%;
-    width: 5%;
-    height: 150px;
-    text-overflow: clip;
-    font-size:17px ;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    
+    
 }
 #icons{
     display: flex;
