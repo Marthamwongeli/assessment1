@@ -22,10 +22,17 @@
     align-items: end;
     
 }
-.content1{
+.content3{
     display: flex;
+    
+    
 }
-#text{
+#head{
+    display: flex;
+    gap: 60px;
+}
+#tests{
+    display: block;
     
 }
 .navbar2{
@@ -42,35 +49,38 @@
     display: flex;
     gap: 200px;
     justify-content: center;
+    border: solid;
 }
 .image{
     display: flex;
     gap: 90px;
-    
+    align-items: center;
 }
 .images2{
-    display: flex;
+    align-items: center;
     
-    justify-content: center;
 }
 #textblock{
-    justify-content: center;
+    display: flex;
 }
 #textblock2{
     text-align: center;
 }
 .images3{
     display: flex;
-    gap: 150%;
+    gap: 70px;
     justify-content: center;
 }
 .footer{
     display: flex;
     gap:60px;
-    border: solid;
-    padding: 70px;
-    justify-content: center;
-    border-color: white;
+    border: 1px;
+    
+    color: black;
+    height: 250px;
+    padding:35px ;
+    margin-left: 7%;
+    margin-right: 7%;
 
 }
 
@@ -105,6 +115,143 @@
 #icons{
     display: flex;
     gap: 50px;
+    
+}
+@media all and (min-width:200px) and (max-width:1280px){
+    .container{
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .navbar{
+        display: flex;
+        gap: 1px;
+        background-color: hsl(120, 81%, 30%);
+        color: white;
+        border: solid 1px;
+        border-radius: 5px;
+        padding: 8px;
+        flex-wrap: wrap;
+    }
+    #topnav{
+        display: flex;
+        gap: 1%;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #icons{
+        display: flex;
+        gap: 0px;
+        align-items: end;
+        flex-wrap: wrap;
+        
+    }
+    .content1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #text{
+        
+    }
+    .navbar2{
+        display: flex;
+        gap: 80px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .products{
+        display: flex;
+        gap: 2px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .product2{
+        display: flex;
+        gap: 2px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .image{
+        display: flex;
+        gap: 2px;
+        flex-wrap: wrap;
+        
+    }
+    .images2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #textblock{
+        justify-content: center;
+    }
+    #textblock2{
+        text-align: center;
+    }
+    .images3{
+        display: flex;
+        flex-wrap: wrap;
+        gap:2%;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        gap:60px;
+        border: solid;
+        padding: 70px;
+        justify-content: center;
+        border-color: white;
+    
+    }
+    
+    #end{
+        display: block;
+        gap: 60px;
+       
+    }
+    #shop{
+        display:block;
+        gap: 50px;
+       
+    
+    }
+    #customer{
+        display: block;
+        gap: 50px;
+        
+    }
+    #help{
+        display: block;
+        gap:60px;
+        
+    }
+    .last{
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        
+        
+    }
+    #icons{
+        display: flex;
+        gap: 50px;
+        
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
     
 }
 
